@@ -1,0 +1,14 @@
+{
+    "env" : {
+        "es6": true,
+        "browser": true,
+        "node": true,
+
+    },
+    "extends": "airbnb",
+    "rules": {
+        "react/forbid-prop-types": [2, { "forbid": ['any'] }],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "max-len" : 0,
+    },
+}

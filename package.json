@@ -1,0 +1,38 @@
+{
+  "name": "Second-Wind-App",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "cosmicjs": "^2.39.91",
+    "express": "^4.15.4",
+    "jss": "^8.1.0",
+    "jss-preset-default": "^3.0.0",
+    "lodash": "^4.17.4",
+    "lodash.get": "^4.4.2",
+    "lodash.throttle": "^4.1.1",
+    "material-ui": "next",
+    "next": "^3.0.6",
+    "open": "0.0.5",
+    "pm2": "^2.6.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-jss": "^7.0.2",
+    "recompose": "^0.24.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "pm2-start": "pm2 start server.js --watch",
+    "build": "next build && NODE_ENV=production",
+    "start": "next start",
+    "stop": "pm2 stop all"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1"
+  }
+}
