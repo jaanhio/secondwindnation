@@ -46,7 +46,7 @@ var _compose2 = _interopRequireDefault(_compose);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Home/ArticlesGrid.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Home/ArticlesGrid.js';
 
 
 var styleSheet = (0, _styles.createStyleSheet)({

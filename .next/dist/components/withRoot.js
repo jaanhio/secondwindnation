@@ -40,7 +40,7 @@ var _context = require('../styles/context');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/withRoot.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/withRoot.js';
 
 
 // Apply some reset

@@ -18,9 +18,13 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _styles = require('material-ui/styles');
 
+var _Hidden = require('material-ui/Hidden');
+
+var _Hidden2 = _interopRequireDefault(_Hidden);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Home/TypographyDesign.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Home/TypographyDesign.js';
 
 
 var styleSheet = (0, _styles.createStyleSheet)({
@@ -30,28 +34,43 @@ var styleSheet = (0, _styles.createStyleSheet)({
     fontSize: 32,
     color: '#322',
     lineHeight: 1.2,
-    width: 2,
     fontWeight: '300',
-    '&:before': {
-      content: '""',
-      width: 1,
-      color: 'rgb(51, 51, 51)',
-      height: '30vh',
-      display: 'block',
-      border: '0px none rgb(51, 51, 51)',
-      background: 'rgb(229, 229, 229) none repeat scroll 0% 0% / auto padding-box border-box',
-      transformOrigin: '0.5px 80px',
-      caretColor: 'rgb(51, 51, 51)'
-    }
+    position: 'relative',
+    right: '32vw'
+  },
+  mobileSubHeading: {
+    marginTop: 20,
+    letterSpacing: '-0.03em',
+    fontSize: 32,
+    color: '#322',
+    lineHeight: 1.2,
+    fontWeight: '300'
   }
 });
 
 var TypographyDesign = function TypographyDesign(props) {
-  return _react2.default.createElement(_Typography2.default, { className: props.classes.subheading, type: 'subheading', __source: {
+  return _react2.default.createElement('div', {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    }
+  }, _react2.default.createElement(_Hidden2.default, { smDown: true, __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     }
-  }, 'Our Latest Articles');
+  }, _react2.default.createElement(_Typography2.default, { className: props.classes.subheading, type: 'title', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    }
+  }, 'Our Latest Articles')), _react2.default.createElement(_Hidden2.default, { mdUp: true, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    }
+  }, _react2.default.createElement(_Typography2.default, { className: props.classes.mobileSubHeading, type: 'title', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    }
+  }, 'Our Latest Articles')));
 };
 
 TypographyDesign.propTypes = {

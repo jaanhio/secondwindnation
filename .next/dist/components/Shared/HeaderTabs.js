@@ -56,7 +56,7 @@ var _Tabs2 = _interopRequireDefault(_Tabs);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Shared/HeaderTabs.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Shared/HeaderTabs.js';
 
 
 var CenteredTabs = function (_Component) {

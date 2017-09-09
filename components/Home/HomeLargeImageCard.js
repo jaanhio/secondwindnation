@@ -9,9 +9,12 @@ function HomeLargeImageCard(props) {
   const { article, classes } = props;
   const handleClick = () => Router.push(`/post?slug=${article.slug}`);
   return (
-    <Grid container className={classes.root} direction="row" wrap="wrap" spacing={40} align="center">
-      <Grid item xs={4}>
-        <Grid container direction="column" wrap="wrap-reverse" spacing={0} >
+    <Grid container className={classes.root} direction="row" wrap="wrap">
+      <Grid item xs={12}>
+        <img className={classes.img} src={article.metadata.header_image.imgix_url} alt={article.title} />
+      </Grid>
+      <Grid item xs={12}>
+        <Grid container align="center" direction="column" wrap="wrap-reverse" spacing={0} >
           <Grid item>
             <Typography className={classes.title} type="title" component="h2" onClick={handleClick} >
               {article.title}
@@ -24,17 +27,13 @@ function HomeLargeImageCard(props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={8}>
-        <img className={classes.img} src={article.metadata.header_image.imgix_url} alt={article.title} />
-      </Grid>
     </Grid>
   );
 }
 
 const styleSheet = createStyleSheet({
   root: {
-    marginTop: 100,
-    left: '10vw',
+    marginTop: 0,
     position: 'relative',
     display: 'flex',
   },
@@ -64,11 +63,9 @@ const styleSheet = createStyleSheet({
     },
   },
   img: {
-    maxWidth: '40vw',
-    minWidth: '30vw',
+    maxWidth: '100vw',
     height: 'auto',
     position: 'relative',
-    borderRadius: '5%',
     opacity: 1,
     '&:hover': {
       opacity: 0.8,

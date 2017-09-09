@@ -48,7 +48,7 @@ var _context2 = require('../styles/context');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/pages/_document.js?entry';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/pages/_document.js?entry';
 
 
 var MyDocument = function (_Document) {

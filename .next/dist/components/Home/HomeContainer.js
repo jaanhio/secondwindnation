@@ -30,7 +30,7 @@ var _ArticlesGrid2 = _interopRequireDefault(_ArticlesGrid);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Home/HomeContainer.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Home/HomeContainer.js';
 
 
 function HomeContainer(props) {

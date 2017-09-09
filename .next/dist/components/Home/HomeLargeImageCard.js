@@ -28,7 +28,7 @@ var _Typography2 = _interopRequireDefault(_Typography);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Home/HomeLargeImageCard.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Home/HomeLargeImageCard.js';
 
 
 function HomeLargeImageCard(props) {
@@ -38,49 +38,48 @@ function HomeLargeImageCard(props) {
   var handleClick = function handleClick() {
     return _index2.default.push('/post?slug=' + article.slug);
   };
-  return _react2.default.createElement(_Grid2.default, { container: true, className: classes.root, direction: 'row', wrap: 'wrap', spacing: 40, align: 'center', __source: {
+  return _react2.default.createElement(_Grid2.default, { container: true, className: classes.root, direction: 'row', wrap: 'wrap', __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     }
-  }, _react2.default.createElement(_Grid2.default, { item: true, xs: 4, __source: {
+  }, _react2.default.createElement(_Grid2.default, { item: true, xs: 12, __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, _react2.default.createElement(_Grid2.default, { container: true, direction: 'column', wrap: 'wrap-reverse', spacing: 0, __source: {
+  }, _react2.default.createElement('img', { className: classes.img, src: article.metadata.header_image.imgix_url, alt: article.title, __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     }
-  }, _react2.default.createElement(_Grid2.default, { item: true, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, _react2.default.createElement(_Typography2.default, { className: classes.title, type: 'title', component: 'h2', onClick: handleClick, __source: {
+  })), _react2.default.createElement(_Grid2.default, { item: true, xs: 12, __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     }
+  }, _react2.default.createElement(_Grid2.default, { container: true, align: 'center', direction: 'column', wrap: 'wrap-reverse', spacing: 0, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }, _react2.default.createElement(_Grid2.default, { item: true, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }, _react2.default.createElement(_Typography2.default, { className: classes.title, type: 'title', component: 'h2', onClick: handleClick, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
   }, article.title)), _react2.default.createElement(_Grid2.default, { item: true, __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 23
     }
   }, _react2.default.createElement(_Typography2.default, { className: classes.caption, type: 'subheading', onClick: handleClick, __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     }
-  }, article.metadata.article_caption)))), _react2.default.createElement(_Grid2.default, { item: true, xs: 8, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  }, _react2.default.createElement('img', { className: classes.img, src: article.metadata.header_image.imgix_url, alt: article.title, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  })));
+  }, article.metadata.article_caption)))));
 }
 
 var styleSheet = (0, _styles.createStyleSheet)({
   root: {
-    marginTop: 100,
-    left: '10vw',
+    marginTop: 0,
     position: 'relative',
     display: 'flex'
   },
@@ -110,11 +109,9 @@ var styleSheet = (0, _styles.createStyleSheet)({
     }
   },
   img: {
-    maxWidth: '40vw',
-    minWidth: '30vw',
+    maxWidth: '100vw',
     height: 'auto',
     position: 'relative',
-    borderRadius: '5%',
     opacity: 1,
     '&:hover': {
       opacity: 0.8,

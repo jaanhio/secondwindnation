@@ -16,7 +16,7 @@ var _styles = require('material-ui/styles');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Home/background.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Home/background.js';
 
 
 var backgroundPattern = function backgroundPattern(props) {

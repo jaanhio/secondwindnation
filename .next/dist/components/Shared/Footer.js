@@ -20,7 +20,7 @@ var _styles = require('material-ui/styles');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/components/Shared/Footer.js';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/components/Shared/Footer.js';
 
 
 var styleSheet = (0, _styles.createStyleSheet)({

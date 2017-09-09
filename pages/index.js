@@ -58,7 +58,7 @@ class Index extends Component {
     return (
       <div style={{ position: 'relative', overflow: 'hidden' }}>
         <HeaderTabs pathname={this.props.url.pathname} />
-        <BackgroundPattern />
+      {/*<BackgroundPattern />*/}
         <HomeContainer featuredArticle={this.state.featuredArticle} arrayOfArticles={this.state.arrayOfArticles} isInfiniteLoading={this.state.isInfiniteLoading} />
         <Footer />
       </div>

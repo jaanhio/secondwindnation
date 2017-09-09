@@ -78,7 +78,7 @@ var _cosmic = require('../model/cosmic');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/YewWee/app/pages/index.js?entry';
+var _jsxFileName = '/Users/jianhaotan/Documents/Programming/secondwind/secondwindnation/pages/index.js?entry';
 
 
 var Index = function (_Component) {
@@ -173,9 +173,8 @@ var Index = function (_Component) {
                     arrayOfArticles: [].concat((0, _toConsumableArray3.default)(prevState.arrayOfArticles), (0, _toConsumableArray3.default)(nextListOfArticles.objects.all)),
                     isInfiniteLoading: !prevState.isInfiniteLoading };
                 });
-                console.dir(this.state);
 
-              case 6:
+              case 5:
               case 'end':
                 return _context2.stop();
             }
@@ -201,25 +200,20 @@ var Index = function (_Component) {
     value: function render() {
       return _react2.default.createElement('div', { style: { position: 'relative', overflow: 'hidden' }, __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 59
         }
       }, _react2.default.createElement(_HeaderTabs2.default, { pathname: this.props.url.pathname, __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
-        }
-      }), _react2.default.createElement(_background2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 60
         }
       }), _react2.default.createElement(_HomeContainer2.default, { featuredArticle: this.state.featuredArticle, arrayOfArticles: this.state.arrayOfArticles, isInfiniteLoading: this.state.isInfiniteLoading, __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 62
         }
       }), _react2.default.createElement(_Footer2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 63
         }
       }));
     }
